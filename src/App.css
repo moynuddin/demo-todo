@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input{
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.btn{
+  padding: 10px;
+  border:none;
+  border-radius: 10px;
+
+}
+
+
+.todolist{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.completed{
+  text-decoration: line-through;
+}
+
+.delete{
+  color: rgb(230, 6, 6);
+}
